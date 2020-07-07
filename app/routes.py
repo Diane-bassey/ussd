@@ -16,6 +16,8 @@ def res():
     phone_number = request.values.get("phoneNumber", None)
     if text =="":
         response = "END hi welcome to your ussd application"
+    
+    return response
     # usrResponse = text.split("*")[0]
 
     # if text == ''
