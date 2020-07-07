@@ -3,7 +3,7 @@ from flask import make_response, request
 
 @app.route("/", methods = ["POST", "GET"])
 def index():
-    response = make_response["END connection ok"]
+    response = make_response("END connection ok")
     response.headers['Content-Type'] ="text/plain"
     return response
 
